@@ -410,7 +410,7 @@ class FormLayout extends React.Component {
 		let _findKey = _.findIndex(_err,{'key':e.currentTarget?.name});
 		delete _err[_findKey];
 		if((e.currentTarget.files[0].size/1000)>=2000&&e.currentTarget.files[0].type.indexOf('image')>=0){
-			_err.push({key:e.currentTarget?.name,msg:'Hình ảnh phải nhỏ hơn < 2Mb'});
+			_err.push({key:e.currentTarget?.name,msg:'Hình ảnh phải nhỏ hơn < 3Mb'});
 			this.setState({errors:_err})
 			return;
 		} else if((e.currentTarget.files[0].size/1000)>=10000&&e.currentTarget.files[0].type.indexOf('video')>=0){
@@ -454,7 +454,7 @@ class FormLayout extends React.Component {
       ) {
         _err.push({
           key: e.currentTarget?.name,
-          msg: "Hình ảnh phải nhỏ hơn < 2Mb",
+          msg: "Hình ảnh phải nhỏ hơn < 3Mb",
         });
         this.setState({ errors: _err });
         return;

@@ -27,9 +27,8 @@ class Form extends React.Component{
 					fields={[
 						{key:'name',label:'name',type:'text',col:'left',isRequied:true},
 						{key:'status',label:'Trạng thái',type:'status',defaultValue:true,col:'right'},
-						// {key:'id',label:'id',type:'text',col:'left',isRequied:true},
+						// {key:'category_id',label:'id',type:'text',col:'left',isRequied:true},
 						// {key:'sort_order',label:'Vị trí',type:'number',defaultValue:true,col:'right'},
-						
 					]}
 				/>
 			</>

@@ -24,7 +24,7 @@ class Form extends React.Component{
 					hideColRight={true} -- ẩn cột phải
 				*/}
 				<FormLayout
-					getData={{role_id:'roles?limit=10000'}}
+					getData={{role_id:'roles?limit=10000'}}  
 					fields={[
 						{key:'email',label:'Email',type:'text',col:'left',isRequied:true},
 						{key:'password',label:'Mật khẩu',type:'password',col:'left',isRequied:true},

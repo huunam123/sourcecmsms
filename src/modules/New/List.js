@@ -39,10 +39,13 @@ class List extends React.Component {
 					maxWidthPopup='md'
 					columns={[
 						{key:'id',label:'id',type:'text'},
-						{key:'title',label:'title',type:'text',width:170},
+						//{key:'name',label:'Tiêu đề',type:'text',width:170},
+						{key:'image',label:'image'},
 						{key:'status',label:'Trạng thái',type:'status',width:120},
-		
-						
+						{key:'slug',label:'Đường dẫn ',type:'slug',width:120},
+						{key:'created_at',label:'Ngày tạo',type:'dateTime',width:120},
+						{key:'updated_at',label:'Cập nhật',type:'dateTime',width:120},
+				
 					]}
 				/>
 			</React.Fragment>
