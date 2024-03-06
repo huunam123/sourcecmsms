@@ -40,7 +40,7 @@ class List extends React.Component {
 					columns={[
 						{key:'id',label:'id',type:'text'},
 						//{key:'name',label:'Tiêu đề',type:'text',width:170},
-						{key:'image',label:'image'},
+			      		{key:'image',label:'image',type:'image',cdn:'/public/news_images/'},
 						{key:'status',label:'Trạng thái',type:'status',width:120},
 						{key:'slug',label:'Đường dẫn ',type:'slug',width:120},
 						{key:'created_at',label:'Ngày tạo',type:'dateTime',width:120},

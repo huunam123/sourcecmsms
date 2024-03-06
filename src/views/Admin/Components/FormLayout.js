@@ -142,7 +142,6 @@ class FormLayout extends React.Component {
               tags: { ...this.state.tags, ["tags"]: _result.tags.split(",") },
             });
         }
-
         // SET PREVIEW
         if (_result?.data) {
           Object.entries(_result?.data).forEach(function(v) {

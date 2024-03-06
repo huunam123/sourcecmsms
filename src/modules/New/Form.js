@@ -28,7 +28,7 @@ class Form extends React.Component{
 					fields={[
 						{key:'category_name',label:'name',type:'text',col:'left',isRequied:true},
 						{key:'status',label:'Trạng thái',type:'status',defaultValue:true,col:'right'},
-						{key: 'image', label: 'Hình ảnh', type: 'image',col:'left',isRequied:true},
+						{key: 'image', label: 'Hình ảnh', type: 'image',col:'left',isRequied:true,cdn:'/public/news_images'},
 						{ key:'category_id', label: 'Danh mục', type: 'select', col: 'left', isRequired: true },
 						{key:'slug',label:' Đường dẫn ',type:'slug',col:'left',isRequied:true},
 						// {key:'title',label:' title ',type:'text',col:'left',isRequied:true},

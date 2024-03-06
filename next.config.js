@@ -16,7 +16,7 @@ module.exports = {
 	poweredByHeader:false,
 	env:{...environment},
 	images: {
-		domains: ['cdn.datafirst.solutions','cdn.mcvnetworks.us','static.datafirst.solutions'],
+		domains: ['cdn.datafirst.solutions','cdn.mcvnetworks.us','static.datafirst.solutions','localhost'],
 		imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
 	},
 	sassOptions:{includePaths:[path.join(__dirname,'node_modules'),path.join(__dirname,'public/scss')]},
