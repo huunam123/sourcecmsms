@@ -39,10 +39,10 @@ class List extends React.Component {
 					maxWidthPopup='md'
 					columns={[
 						{key:'id',label:'id',type:'text'},
-						//{key:'name',label:'Tiêu đề',type:'text',width:170},
-			      		{key:'image',label:'image',type:'image',cdn:'/public/news_images/'},
+						{key:'title',label:'Tiêu đề',type:'text',width:170},
+						{key:'slug',label:'Đường dẫn ',type:'text',width:120},
+			      		{key:'image',label:'image',type:'image',cdn:process.env.CDN_URL_S3},
 						{key:'status',label:'Trạng thái',type:'status',width:120},
-						{key:'slug',label:'Đường dẫn ',type:'slug',width:120},
 						{key:'created_at',label:'Ngày tạo',type:'dateTime',width:120},
 						{key:'updated_at',label:'Cập nhật',type:'dateTime',width:120},
 				
