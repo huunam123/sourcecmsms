@@ -32,7 +32,7 @@ class Form extends React.Component{
 						{key: 'image', label: 'Hình ảnh', type: 'image',col:'left',isRequied:true},
 						{key:'content',label:'Content',type:'editor',col:'left',isRequied:true},
 						{key:'status',label:'Trạng thái',type:'status',defaultValue:true,col:'right'},
-
+						{key:'forcus',label:'Ghim',type:'status',defaultValue:true,col:'right'},
 					]}
 				/>
 			</>
